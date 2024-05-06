@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main form</title>
+</head>
+<body>
+    <h3>FILL THE BELOW GIVEN FORM TO REGISTER FOR THE UPCOMING TRISEMISTER-III COURSES</h3>
+    <hr>
+    <hr>
+    <br>
+    <div>
+        <form action="payment.html">
+            <Label for="rollno">Enter roll number:</Label>
+            <input type="text" name="" id="rollno" placeholder="XXXXXA69XX">
+            <br>
+            <br>
+            <Label for="bday">Enter date of birth:</Label>
+            <input type="date" name="" id="bday">
+            <br>
+            <br>
+            <div>
+                <label for="gender">Choose your gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+            </div>
+            <br>
+            <Label >Select courses: </Label>
+            <br>
+            <div>
+            <Label for="DA104">DA104</Label>
+            <input type="checkbox" name="courses" value="DA104" id="DA104">
+            <Label for="DA105">DA105</Label>
+            <input type="checkbox" name="courses" value="DA105" id="DA105">
+            <Label for="DA106">DA106</Label>
+            <input type="checkbox" name="courses" value="DA106" id="DA106">
+            <Label for="DA107">DA107</Label>
+            <input type="checkbox" name="courses" value="DA107" id="DA107">
+            </div>
+            <br>
+            <label for="list">Choose payment method:</label>
+            <select name="modeofpay" id="list">
+                <option value="select">Select any payment</option>
+                <option value="UPI">UPI</option>
+                <option value="Net banking">Net Banking</option>
+                <option value="eft">Electronic Fund transfer</option>
+                <option value="crypto">cryptocurrency</option>
+            </select>
+            <br>
+            <br>
+            <label for="confirm">I hereby verify that all information entered above is correct and valid, in case of any error the payment might get failed</label>
+            <input type="checkbox" name="agree" id="confirm">confirm
+            <br>
+            <input type="submit" name="" id="">
+            <input type="reset" name="" id="">
+        </form>
+
+    </div>
+    
+</body>
+</html>
